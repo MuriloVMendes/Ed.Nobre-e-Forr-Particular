@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+   background: black;
+    list-style: none;
+    text-decoration: none
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+   
+    list-style: none;
+    background-color: red;
+    width: 200px;
+    height: 80px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Roboto', sans-serif;
+ }
+
+li:hover{
+    color: #000;
+    background-color:#fff;;
+}
+
+#logo{
+    width: 125px;
+    height: auto;
+}
+
+.banner{
+    background-image: url('https://scontent.fcgh7-1.fna.fbcdn.net/v/t39.30808-6/319682909_840486407160622_5874590352876046486_n.jpg?stp=cp0_dst-jpg_e15_fr_q65&_nc_cat=100&ccb=1-7&_nc_sid=85a577&efg=eyJpIjoidCJ9&_nc_eui2=AeHiWaMkTmBR3-2q59unKVADEq4tPtJuBKkSri0-0m4EqZ2F7WK1-PWiVVI214PDGiDtbMlvy-BKPglj3IYOHDap&_nc_ohc=27gq_iiz8z0AX93Q8FG&_nc_ht=scontent.fcgh7-1.fna&oh=00_AfBB0xdJCcpb3HQ8LWvJbRt0aUTzainWaJ35Uy5SyXurOQ&oe=6414E867');
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: repeat;
+    width: 100%;
+    height: 100px;
+
+}
+
+.banda{
+   color: aliceblue; 
+   margin-top: 70px;
+   font-size: 60px;
+   font-family: 'Roboto', sans-serif;;
+   display: flex;
+   justify-content: center;
+   
+}
+
+.text1{
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;;
+    display: flex;
+    justify-content: center;
+}
+
+.text2{
+    color: aliceblue;
+    margin-right: 30px;
+    margin-top: 90px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre{
+
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#banner2{
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: repeat;
+    width: 300px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 580px;
+}
+
+.banner2{
+    width: 100%;
+    height: 600px;
+  
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 0 0 20px 10px ;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+    
+}
+
+.banner2:hover{
+    transform: scale(1.02);
+}
+
+.h2{
+    color: aliceblue;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.lista{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: aliceblue;
+    font-size: 18px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+ }
+
+ .whats{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    
+ }
+
+footer 
+ {
+     height: 300px;
+     margin-top: 400px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+ span{
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif; ;
+ }
+
+ .footer-navigation{
+    display: none;
+ }
+
+ .footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ @media(max-width: 768px) {
+    .footer-navigation{
+        display: block;
+    }
+    #logo{
+        margin-top: 84px ;
+        margin-left: 117px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    #banner1{
+        width: 961px;
+        background-position: 40%;
+        background-size: contain;
+        background-repeat: repeat;
+        margin-bottom: 1px;
+     
+    }
+        .banner2{
+        background-position: 40%;
+    }
+
+    .banda{
+        margin-bottom: 400px;
+        margin-left: 125px;
+        width: 95%;
+    }
+        
+        
+    #banner2{
+        margin-top: 56px;
+    margin-left: 261px;
+    
+    
+
+    }
+
+    #maior{
+        margin-top: 180px;
+
+
+    }
+
+    #sucess{
+        margin-top: 53px;
+        grid-template-columns: 1fr;
+    }
+
+    #simbolo{
+        margin-top: 353px ;
+        margin-left: 38px;
+    }
+  
+    }
+
+    
+  
+  
+       
+
+
